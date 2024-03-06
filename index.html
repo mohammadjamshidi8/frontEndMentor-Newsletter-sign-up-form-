@@ -30,23 +30,37 @@
   </head>
   <body>
     <!-- body container start -->
-    <div class="h-screen flex justify-center items-center bg-slate-700 font-roboto text-[16px]">
+    <div
+      class="h-screen flex justify-center items-center bg-slate-700 font-roboto text-[16px]"
+    >
       <!-- newsletter container start -->
       <div
         class="w-max sm:w-3/4 md:w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 bg-white h-screen md:h-4/6 md:p-3 sm:rounded-3xl flex flex-col-reverse md:flex-row justify-between items-center gap-y-10 md:gap-y-0 p-0 md:gap-x-6 xl:py-4"
       >
         <!-- newsletter content box start -->
-        <div class="w-full sm:w-3/4 md:mt-0 md:w-[60%] flex flex-col justify-center lg:px-20 gap-y-4 md:px-10 mb-10 md:mb-0 px-4  2xl:px-16 2xl:gap-y-4 xl:px-2">
-          <h1 class="text-5xl md:text-5xl lg:text-4xl xl:text-6xl 2xl:text-6xl font-bold xl:tracking-wider">stay updated!</h1>
-          <p class="text-lg">Join 60,000+ product managers receiving monthly updates on:</p>
+        <div
+          class="w-full sm:w-3/4 md:mt-0 md:w-[60%] flex flex-col justify-center lg:px-20 gap-y-4 md:px-10 mb-10 md:mb-0 px-4 2xl:px-16 2xl:gap-y-4 xl:px-2"
+        >
+          <h1
+            class="text-5xl md:text-5xl lg:text-4xl xl:text-6xl 2xl:text-6xl font-bold xl:tracking-wider"
+          >
+            stay updated!
+          </h1>
+          <p class="text-lg">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
           <div class="flex gap-x-4">
             <img src="./assets/images/icon-list.svg" class="w-6" alt="" />
-            <span class="md:text-lg"> Product discovery and building what matters </span>
+            <span class="md:text-lg">
+              Product discovery and building what matters
+            </span>
           </div>
 
           <div class="flex gap-x-4">
             <img src="./assets/images/icon-list.svg" class="w-6" alt="" />
-            <span class="md:text-lg"> Measuring to ensure updates are a success </span>
+            <span class="md:text-lg">
+              Measuring to ensure updates are a success
+            </span>
           </div>
 
           <div class="flex gap-x-4">
@@ -63,8 +77,10 @@
               id="email"
               placeholder="email@company.com"
             />
+            <span id="error-email" class="hidden">Enter a valid email!!</span>
             <button
-              class="py-5 bg-darkSlate font-bold text-lg text-white rounded-md capitalize hover:transition hover:ease-in-out  hover:bg-gradient-to-r hover:from-rose-400 hover:to-tomato hover:duration-150 hover:shadow-lg hover:shadow-rose-300"
+              id="submit-btn"
+              class="py-5 bg-darkSlate font-bold text-lg text-white rounded-md capitalize hover:transition hover:ease-in-out hover:bg-gradient-to-r hover:from-rose-400 hover:to-tomato hover:duration-150 hover:shadow-lg hover:shadow-rose-300"
               type="submit"
             >
               Subscribe to monthly newsletter
