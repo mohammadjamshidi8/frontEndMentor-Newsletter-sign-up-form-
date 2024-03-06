@@ -23,6 +23,8 @@ submitBtn.addEventListener('click', (e) => {
         setTimeout(() => {
             emailError.classList.add('hidden')
         }, 4000);
+
+        
     } else {
         emailError.className = 'hidden'
         emailError.innerHTML = 'Enter a valid email! 😑'
